@@ -11,8 +11,7 @@ This is an instruction-tuned model similar to chatGPT-like models but in a small
 
 ### Basic example
 
-![img](tweet1.png)
-
+![exmaple](tweet1.png)
 
 ### Installation
 To install all the necessary packages, use the following command:
@@ -41,6 +40,7 @@ python deploy.py
 - `EXIT`: Enter this command to exit the conversation.
 - `RESET`: Enter this command to reset the conversation.
 - `TXT`: Use this command at the beginning of the prompt and then ask a follow-up question. The file.txt is loaded. Example: `TXT summarize this text`.
+
 
 ### Configuration
 
