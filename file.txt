@@ -1,0 +1,36 @@
+Cross validation:
+Cross validation is a technique used in machine learning to evaluate the performance of
+a model on unseen data. It involves dividing the available data into multiple folds or
+subsets, using one of these folds as a validation set, and training the model on the remaining
+folds.
+
+Introduction
+Whenever we build any machine learning model, we feed it with initial data to train the model.
+And then we feed some unknown data (test data) to understand how well the model performs
+and generalized over unseen data. If the model performs well on the unseen data, it’s consistent
+and is able to predict with good accuracy on a wide range of input data; then this model is
+stable.
+But this is not the case always! Machine learning models are not always stable and we have to
+evaluate the stability of the machine learning model. That is where Cross Validation comes
+into the picture.
+'In simple terms, Cross-Validation is a technique used to assess how well our Machine learning
+models perform on unseen data'
+According to Wikipedia, Cross-Validation is the process of assessing how the results of a
+statistical analysis will generalize to an independent data set.
+There are many ways to perform Cross-Validation and we will learn about 4 methods in this
+article.
+
+Why do we need Cross-Validation?
+
+Suppose you build a machine learning model to solve a problem, and you have trained the
+model on a given dataset. When you check the accuracy of the model on the training data, it is
+close to 95%. Does this mean that your model has trained very well, and it is the best model
+because of the high accuracy?
+
+No, it’s not! Because your model is trained on the given data, it knows the data well, captured
+even the minute variations(noise), and has generalized very well over the given data. If you
+expose the model to completely new, unseen data, it might not predict with the same accuracy
+and it might fail to generalize over the new data. This problem is called over-fitting.
+
+Sometimes the model doesn’t train well on the training set as it’s not able to find patterns. In
+this case, it wouldn’t perform well on the test set as well. This problem is called Under-fitting.

@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.2
+colorama==0.4.6
+peft==0.3.0
+pyppeteer==1.0.2
+PyYAML==6.0
+PyYAML==6.0
+Requests==2.30.0
+torch==2.0.0+cu118
+transformers==4.29.2
